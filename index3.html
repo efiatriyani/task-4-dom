@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 4 ef</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="nav">
+        <div id="add">
+          <button id="btnAdd">add</button>
+        </div>
+        <div class="search">
+          <input type="text" id="searchInput" placeholder="Search..." />
+        </div>
+      </div>
+      <div id="form" class="hidden">
+        <form id="form-body" class="card-form">
+          <h1 style="color: rgb(252, 252, 252)">tugas 4 js dom</h1>
+          <label for="name"
+            ><span class="S-name">Photo :</span></label>
+          <input type="file" name="name" id="gambar" accept=".jpg, .jpeg, .png" multiple/>
+          <label for="name"><span class="S-name">FULL NAME :</span></label>
+          <input type="text" name="name" id="name" placeholder="Full Name" required/>
+          <label for="alamat"><span>ADDRESS :</span></label>
+          <input type="text" name="alamat" id="alamat" placeholder="enter ur address" required/>
+          <label for="keterangan"><span>OTHERS :</span></label>
+          <input type="text" name="keterangan" id="keterangan" placeholder="enter ur address"required/>
+          <button type="button" id="btn">DONE</button>
+          <button type="button" id="close">X</button>
+        </form>
+      </div>
+      <div class="overlay hidden"></div>
+      <div id="tampilan">
+      </div>
+    </main>
+    <script src="jsq.js"></script>
+  </body>
