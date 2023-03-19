@@ -1,0 +1,209 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family:'Lucida Sans';
+  background: #1559be;
+}
+.card-form input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.hidden {
+  display: none;
+}
+main {
+  overflow: hidden;
+}
+#form{
+  width: 10px;
+  height: 400px;
+  top: 0px;
+  left: 35%;
+  position: absolute;
+  z-index: 2;
+  right: 100px;
+  padding: 20px;
+}
+label span {
+  margin: 8px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+hr {
+  margin-bottom: 20px;
+}
+input {
+  width: 94.5%;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  display: block;
+  text-align: center;
+}
+#tampilan h2 {
+  padding: 14px;
+  font-size: 16px;
+  text-align: center;
+}
+.card-form {
+  position: fixed;
+  padding: 20px;
+  border: 2px solid rgb(160, 158, 158);
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  background: radial-gradient(circle, rgb(103, 14, 131) 0%, rgba(119, 10, 122, 0.45) 100%);
+}
+.card-form h1 {
+  text-align: center;
+  margin-top: 4px;
+}
+::placeholder{
+  font-size: 13px;
+}
+#btn {
+  border: none;
+  width: 100%;
+  padding: 8px;
+  background-color: green;
+  color: rgba(255, 255, 255, 0.887);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgb(15, 129, 39) 0%, rgba(16, 148, 56, 0.618) 100%);
+}
+#btn:hover {
+  background-color: rgb(9, 93, 9);
+}
+#tampilan{
+  width: 35%;
+  padding: 20px;
+}
+.card-result {
+  margin: 20px;
+  position: relative;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.498);
+  padding: 20px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63, 251, 119, 0.563) 0%, rgba(13, 153, 32, 0.42) 100%);
+}
+.card-result:hover {
+  color: rgba(0, 0, 0, 0.928);
+  translate: -3px;
+  transform: scale(1.08);
+  transition: all ease-in-out 0.1s;
+}
+
+.delete, #close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: -8px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 100%;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.delete:hover, #close:hover {
+  transition: all 0.3s;
+  background-color: rgba(226, 205, 179, 0.883);
+}
+.edit {
+  position: absolute;
+  border: none;
+  background-color: rgba(135, 207, 235, 0.799);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  right: 35px;
+  margin: -8px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+.edit:hover {
+  transition: all 0.3s;
+  background-color: rgb(111, 189, 220);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+label span {
+  margin: 8px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+hr {
+  margin-bottom: 20px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.ff {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.3663896833147321) 100%);
+  background-color: red;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  margin-top: 18px;
+}
+
+#tampilan {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .search {
+  display: flex;
+}
+
+.nav #add #searchBtn, #btnAdd{
+  border-radius: 10px;
+  padding: 8px;
+  margin: 10px;
+  width: 150px;
+  font-size: 13px;
+}
+.nav #add #btnAdd:hover, #searchBtn:hover{
+  transition: all ease-in-out 0.2s;
+  background-color: rgba(119, 136, 153, 0.355);
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#searchInput{
+  margin-right: 14px;
+  width: 300px;
+  margin-top: 11px;
+  height: 15px;
+}
